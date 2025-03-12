@@ -75,6 +75,18 @@ Click on the "Upload PDF File" button in the Gradio interface and upload any PDF
 * step 5: Query the document
 You can ask a question related to the document you uploaded, and the chatbot will generate a response based on the content. After uploading the document, type your query in the text box and click the "Submit" button. The chatbot will provide an answer based on the document content.
 
+## Alternative way - Use docker
+If you are familiar with docker, you are probably notice the docker file in this repo.
+You can just build and run the docker container.
+```bash
+# Build the Docker image
+docker build -t rag-document-qa .
+
+# Run the container
+docker run -p 7860:7860 rag-document-qa
+```
+and then access your Gradio interface at http://localhost:7860 in your web browser.
+
 ## Contact
 If you have any questions, feel free to ask me.
 Also, feel free to open an issue if you encounter any problems. 
