@@ -1,7 +1,7 @@
 # Interactive RAG QA-bot with LLM-Based Document Reader Using LangChain
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/Shen-po-heng/Interactive-QA-bot-with-LLM-based-Document-Reader-using-Langchain)](https://github.com/Shen-po-heng/Interactive-QA-bot-with-LLM-based-Document-Reader-using-Langchain)
-
+[![GitHub workflow](https://github.com/Shen-po-heng/Interactive-QA-bot-with-LLM-based-Document-Reader-using-Langchain/actions/workflows/test.yml/badge.svg)](https://github.com/Shen-po-heng/Interactive-QA-bot-with-LLM-based-Document-Reader-using-Langchain/actions/workflows/test.yml)
 ## Description
 This repository demonstrate a RAG(Retrieval-Augmented Generation) QA-bot with reader can process PDF documents and answer queries based on the content of the documents
 
