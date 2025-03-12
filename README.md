@@ -37,8 +37,10 @@ project_root/
 │   ├── __init__.py     
 │   └── logger.py          # Logging configuration
 └── interfaces/        # Folder for Gradio UI
-    ├── __init__.py     
-    └── gradio_interface.py # Gradio interface setup
+│   ├── __init__.py     
+│   └── gradio_interface.py # Gradio interface setup
+└── tests/        # Folder for test
+    └── test_rag_service.py 
 ```
 
 ## Getting Started -  Installation and Usage
