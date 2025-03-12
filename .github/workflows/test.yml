@@ -25,7 +25,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt  # Install dependencies from the requirements.txt file
-        pip install torch==2.6.0 
+         
     - name: Run tests
       run: |
         # Run the tests in the 'tests' directory, make sure pytest or your test runner is set up
