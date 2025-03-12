@@ -28,10 +28,4 @@ jobs:
          
     - name: Run tests
       run: |
-        # Run the tests in the 'tests' directory, make sure pytest or your test runner is set up
-        pytest tests/test_tag_service.py  # Adjust the path to match your test file
-      env:
-        # Add environment variables here if necessary
-        # For example, if you need to set some configuration
-        FLASK_APP: app.py
-        FLASK_ENV: development
+          pytest tests/
